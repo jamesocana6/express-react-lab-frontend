@@ -16,7 +16,7 @@ function Projects(props) {
     const loaded = () => {
         const allProjects = projects.map((p, index) => {
             return (
-                <div key={index}>
+                <div className="project" key={index}>
                     <h1>{p.name}</h1>
                     <img src={p.image} alt={p.name}/>
                     <a href={p.git}>
@@ -29,9 +29,9 @@ function Projects(props) {
             )
         })
         return (
-            <>
+            <div className="projects">
                 {allProjects}
-            </>
+            </div>
         )
     }
     

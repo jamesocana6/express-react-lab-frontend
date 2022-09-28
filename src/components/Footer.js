@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer(props) {
     return (
-        <>
-        <h1>Footer</h1>
-        </>
+        <footer>
+        <h1>This is the Footer</h1>
+        </footer>
     )
 }
 
