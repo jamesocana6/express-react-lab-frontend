@@ -10,7 +10,7 @@ function About(props) {
         setAbout(data);
     }
 
-    useEffect(() => getAbout,[]);
+    useEffect(() => getAbout(),[]);
 
     const loaded = () => {
         return (

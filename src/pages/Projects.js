@@ -11,7 +11,7 @@ function Projects(props) {
         setProjects(data);
     }
 
-    useEffect(() => getProjects,[])
+    useEffect(() => getProjects(),[])
 
     const loaded = () => {
         const allProjects = projects.map((p, index) => {
